@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>registration</title>
+    <link rel="stylesheet" href="../all css files/regiscss.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/73c7a3a4ee.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="img">
+
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ISTUDIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-4 ms-auto">
+                        <li class="nav-item ">
+
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <button type="button" class="btn btn-outline-light p-2 ms-3">Login</button>
+
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+
+        <form onsubmit="return sub()" class="form" target="_blank" action="login.html" method="post">
+            <div class="box">
+                <h1><i class="fa-regular fa-address-card"></i>Registration Form</h1>
+                <div class="hero  mb-3">
+                    <i class="fa-solid fa-user  "></i>
+                    <label for="username">USERNAME :</label>
+                    <input   id="uname" type="text" placeholder="Enter Username " onfocus="username()"
+                        onblur="username1()">
+                    <p id="fn"></p>
+                </div>
+                <div class="hero md-3">
+                    <i class="fa-solid fa-envelope "></i>
+                    <label for="email">EMAIL :</label>
+                    <input id="emailvalid" type="email" placeholder="Enter email " onfocus="email()" onblur="email1()">
+                    <p id="em"></p>
+                </div>
+                <div class="hero md-3">
+                    <i class="fa-solid fa-lock"></i>
+                    <label for="password">PASSWORD :</label>
+                    <input id="passwordvalid" type="password" placeholder="Enter password " onfocus="password()"
+                        onblur="password1()">
+                    <p id="ps"></p>
+                </div>
+                <div class="hero md-3">
+                    <i class="fa-solid fa-lock"></i>
+                    <label for="password">RE-ENTER PASSWORD :</label>
+                    <input id="revalid" type="password" placeholder="Enter re-enter password" onfocus="repass()"
+                        onblur="repass1()">
+                    <p id="rps"></p>
+                </div>
+                <p id="err"></p><br>
+                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+            
+                <h6>Already have a account <a href="login.html" target="_blank">login</a></h6>
+
+
+            </div>
+
+
+
+        </form>
+    </div>
+    </div>
+
+    <script src="reg.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgg {
+    background-image: url("https://images.unsplash.com/photo-1512850183-6d7990f42385?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2FsbHBhcGVyfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    color: white;
+    text-align: center;
+}
+
+.box {
+    border: 5px solid white;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+
+.box h1 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.hero i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.box label {
+    color: white;
+    font-weight: 500;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+
+.box input {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.box input::placeholder {
+    text-align: center;
+    color: white;
+    opacity: 0.6;
+}
+
+.box button {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.box:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+}

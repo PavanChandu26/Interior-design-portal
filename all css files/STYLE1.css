@@ -1,0 +1,438 @@
+.body {
+    padding: 0px 50px;
+}
+
+.part {
+    background-color: rgb(232, 232, 232);
+}
+
+.part1 {
+    background-color: rgb(232, 232, 232) !important;
+    border-bottom: 5px solid white;
+}
+
+#navbarNavDropdown .nav-item .active {
+    color: green;
+    font-weight: bold;
+}
+
+.part1 nav {
+    background-color: rgb(232, 232, 232) !important;
+}
+
+/* --------------------------part2------------------------------------------------------------------- */
+.part2 {
+    margin-top: 80px;
+    margin-bottom: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.Homee {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.part2 h1 {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 5vw;
+}
+
+.part2 h1 span {
+    color: green;
+}
+
+.part2 h5 {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.Award {
+    border: 2px solid white;
+
+}
+
+.Homee1 img {
+    width: 100%;
+    height: 350px;
+}
+
+/* -----part3---------------------------------------------------------- */
+.part3 {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.robo1 h2 {
+    width: 100%;
+    color: brown;
+}
+
+.part3 i {
+    color: green;
+
+}
+
+/* -----part4---------------------------------------------------------------------- */
+.part4 {
+    margin-top: 80px;
+    display: block;
+}
+
+.part4 img {
+    width: 100%;
+
+}
+
+.part4 .img2 img {
+    height: 490px;
+}
+
+.img2 h3 {
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    background-color: green;
+    margin-bottom: 0;
+    font-size: 1.0rem;
+}
+
+.tec span {
+    margin-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: rgb(174, 210, 174);
+    color: green;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.tec h1 {
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.tec .para1 {
+    padding: 20px 50px;
+}
+
+.tec .para2 {
+    padding: 0px 50px;
+}
+
+.tick-list {
+    list-style: none;
+    display: flex;
+}
+
+.tick-list li::before {
+    content: "✅";
+}
+
+.tick-list .list2 {
+    padding-left: 100px;
+}
+
+.tick-list .list3 {
+    padding-left: 80px;
+}
+
+.part5 {
+    display: flex;
+    padding: 100px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.calender i {
+    width: 100%;
+    color: green;
+
+}
+
+.calender h1 {
+    text-align: center;
+}
+
+.calender p {
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.user {
+    text-align: center;
+}
+
+.user i {
+    color: green;
+
+}
+
+.user p {
+    padding: 0px 50px;
+}
+
+.checklist {
+    text-align: center;
+}
+
+.checklist i {
+    color: green;
+}
+
+.checklist p {
+    padding: 0px 50px;
+}
+
+.Architect {
+    text-align: center;
+}
+
+.Architect i {
+    color: green;
+}
+
+.Architect p {
+    padding: 0px 50px;
+}
+
+/* part6 */
+.part6 {
+    padding: 30px 20px;
+}
+
+.latest {
+    text-align: center;
+    background-color: green;
+    width: 100%;
+    height: 545px;
+    padding-top: 130px;
+}
+
+.latest h1 {
+    font-style: italic;
+    font-size: 3.0rem;
+    color: white;
+}
+
+.latest .projects {
+    display: inline-block;
+    color: green;
+    background-color: white;
+    margin-left: 5px;
+    padding: 5px;
+    font-style: italic;
+}
+
+.latest h3 {
+    padding: 20px 20px;
+    color: white;
+}
+
+.latest .six {
+    font-size: 5rem;
+
+}
+
+.kitchen img {
+    width: 100%;
+    height: 272px;
+    transition: transform 0.1s ease;
+}
+
+.kitchen img:hover {
+    width: 100%;
+    height: 272px;
+    transform: scale(1.2);
+}
+
+/* part7 */
+.part7 .services {
+    padding: 120px 55px;
+
+}
+
+.services span {
+    padding: 0px 10px;
+    color: green;
+    background-color: rgb(174, 210, 174);
+}
+
+.services .phone {
+    display: flex;
+    color: white;
+    background-color: green;
+    padding: 8px 0px;
+}
+
+.services .number {
+    padding: 0px 10px;
+
+    background-color: rgb(174, 210, 174);
+}
+
+.services .containerbox {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.design {
+
+    background-color: green;
+    color: white;
+
+}
+
+.services2 .commercial {
+    background-color: green;
+    color: white;
+
+}
+
+.part8 {
+    background-color: rgb(174, 210, 174);
+}
+
+.part8 h1 {
+    padding-left: 20px;
+    padding-top: 90px;
+}
+
+.part8 span {
+    color: green;
+}
+
+.part9 {
+    margin-top: 100px;
+}
+
+.part9 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.part9 .customers {
+    padding: 50px 20px;
+
+}
+
+.customers h1,
+.customers p,
+.customers h3 {
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.part10 {
+    margin-top: 100px;
+}
+
+.email {
+    background-color: rgb(174, 210, 174);
+    padding-top: 130px;
+}
+
+.email h1 {
+    text-align: center;
+    padding-left: 100px;
+}
+
+.email .form-group {
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.part11 {
+    background-color: black;
+    padding-top: 80px;
+}
+
+.studiotext h1 {
+    color: white;
+    text-align: center;
+
+}
+
+.studiotext p {
+    color: rgb(167, 167, 167);
+    text-align: center;
+    padding: 0px 50px;
+
+}
+
+.touch h3 {
+
+    color: white;
+}
+
+.touch i {
+
+    color: rgb(167, 167, 167);
+}
+
+.touch .location {
+    display: flex;
+}
+
+.touch .location p {
+    color: rgb(167, 167, 167);
+
+}
+
+.phonenumber {
+    display: flex;
+}
+
+.phonenumber p {
+    color: rgb(167, 167, 167);
+
+}
+
+.emailhelp {
+    display: flex;
+}
+
+.emailhelp p {
+    color: rgb(167, 167, 167);
+}
+
+.icon {
+    display: flex;
+
+}
+
+.icon i {
+    border: 2px solid white;
+    margin-right: 9px;
+    padding: 5px 0px;
+    color: green;
+}
+
+.Popular h3 {
+    color: white;
+}
+
+.about {
+    list-style: none;
+    padding: 0;
+    color: rgb(167, 167, 167);
+}
+
+.about li::before {
+    content: ">";
+    color: rgb(167, 167, 167);
+}
+
+.service h3 {
+    color: white;
+}
